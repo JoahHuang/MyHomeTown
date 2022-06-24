@@ -1,0 +1,61 @@
+#vNav {
+    margin: 0px 20px 20px;
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+    border-right: 3px solid rgb(197, 222, 245);
+    background-color: #f1f1f1;
+    float: left;
+    text-align: center;
+    position: relative;
+    position: sticky;            /*导航栏具有黏性，根据用户的滚动位置进行定位*/
+    position: -webkit-sticky;
+    top: 72px;
+}
+#vNav a {
+    color: black;
+}
+#vNav ul li {
+    margin-bottom:5px ;
+}
+#vNav h3 {
+    text-align: center;
+    border-bottom: 3px solid gainsboro;
+    padding-bottom: 3px;
+    margin-bottom: 4px;
+}
+
+
+ul.lNav {
+    z-index: 151;                       
+    background-color: #333;
+    margin: 0;  
+    list-style-type: none;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: relative;
+    position: sticky;                   /*水平导航栏可随滚动粘贴于页面顶部*/
+    top: 0px;
+}
+li.lNav {
+    float: left;
+}
+li.lNav:first-child {
+    margin-left: 25%;
+}
+li a.lNav {
+    display: block;
+    color: white;
+    width: 100px;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+}
+li a.lNav:hover:not(.active) {          /*鼠标悬于导航栏标题时该标题高亮，*/
+    background-color: rgb(95, 65, 65);
+}
+.active {                               /*所在页面对应的导航标题高亮*/
+    background-color: #4CAF50;
+}
+

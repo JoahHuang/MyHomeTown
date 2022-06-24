@@ -1,0 +1,15 @@
+.bg {
+	height: 2600px;
+	background: url(../img/背景图/地理背景图.jpg) no-repeat fixed center;
+	background-size: 100% 100%;
+}
+#footer {
+	margin-top: 2500px;
+}
+
+.my-map { margin: 0 auto; width: 600px; height: 480px; }
+.my-map .icon { background: url(//a.amap.com/lbs-dev-yuntu/static/web/image/tools/creater/marker.png) no-repeat; }
+.amap-container{height: 100%;}
+.myinfowindow{width: 240px;min-height: 50px;}
+.myinfowindow h5{ height: 20px; line-height: 20px; overflow: hidden; font-size: 14px; font-weight: bold; width: 220px; text-overflow: ellipsis; word-break: break-all; white-space: nowrap; }
+.myinfowindow div{ margin-top: 10px; min-height: 40px; line-height: 20px; font-size: 13px; color: #6f6f6f; }

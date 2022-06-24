@@ -1,0 +1,99 @@
+#main {
+    float: none;
+    margin: auto;
+}
+
+.bg {
+	height: 1740px;
+	background: url(../img/背景图/留言背景图.jpg) no-repeat fixed center;
+	background-size: 100% 100%;
+}
+#footer {
+	margin-top: 940px;
+}
+
+input {
+    border:none; 
+    background-color:#3EADC5; 
+    color:white;
+}
+#postBt, #clearBt {
+    border-radius:5px; 
+    width:80px; 
+    height:30px;
+}
+
+#content #post:after,#comment p:after {
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden; 
+    overflow:hidden; 
+    content:'.';
+}
+.transition {
+    -webkit-transition:all 0.5s linear; 
+    -moz-transition:all 0.5s linear; 
+    -o-transition:all 0.5s linear; 
+    -ms-transition:all 0.5s linear; 
+    transition:all 0.5s linear;
+}
+#content {
+    margin:0 auto; 
+    width:760px; 
+    overflow:hidden;
+}
+#content #post {
+    margin-bottom:15px; 
+    padding-bottom:15px; 
+    border-bottom:1px #d4d4d4 dashed;
+    height: 556px;
+}
+#content #post textarea {
+    display:block; 
+    margin-bottom:10px; 
+    padding:5px; 
+    width:748px; 
+    height:390px; 
+    border:1px #d1d1d1 solid; 
+    border-radius:5px; 
+    resize:none; 
+    outline:none;
+}
+#content #post textarea:hover {
+    border:1px #9bdf70 solid; 
+    background:#f0fbeb;
+}
+#content #post #postBt,#content #post #clearBt {
+    margin-left:5px; 
+    padding:3px; 
+    float:right;
+}
+#comment{
+    overflow:hidden;
+}
+#comment p {
+    margin-bottom:10px; 
+    padding:10px; 
+    border-radius:5px;
+}
+#comment p:nth-child(odd) {
+    border:1px solid #e3e197; 
+    background:#ffd;
+}
+#comment p:nth-child(even) {
+    border:1px solid #adcd3c; 
+    background:#f2fddb;
+}
+
+#comment p.right {
+    text-align:right;
+}
+#comment p.msg {
+    width:738px;
+}
+#comment p.datetime {
+    width:200px; 
+    color:#999; 
+    text-align:right;
+}

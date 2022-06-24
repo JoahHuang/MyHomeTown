@@ -1,0 +1,8 @@
+.bg {
+	height: 2400px;
+	background: url(../img/背景图/历史背景图.jpg) no-repeat fixed center;
+	background-size: 100% 100%;
+}
+#footer {
+	margin-top: 2300px;
+}

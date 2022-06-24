@@ -1,0 +1,87 @@
+#header {
+    margin: 0;
+    background-color: rgb(210, 223, 230);
+    color: black;
+    padding: 5px;
+}
+#main {                         /*主内容*/
+    height: auto;
+    width: 800px;
+    padding: 0px 20px;
+    margin: 0px 20px 20px;
+    border-bottom: 3px;
+    border: 3px solid gainsboro;
+	background-color: white;
+    float: left;
+}
+#footer {
+    display: block;
+    background-color: gainsboro;
+    color: black;
+    text-align: center;
+    padding: 1px;
+    clear: both;
+    margin: 0;
+	/* margin-top; */
+}
+
+
+.section {                       /*每一小节末都会有分割线*/
+    padding-bottom: 20px;
+    border-bottom: 2px solid gainsboro;
+}
+.section:last-child {
+    border-bottom: none;
+}
+.show p {
+    float: left;
+    width: 80%;
+}
+.show a {
+    float: right;
+    width: 15%;
+    border-left: 3px solid rgb(197, 222, 245);
+    padding: 0px 20px;
+    margin-left: 50px;
+} 
+.show img {
+    position: relative;
+    height: 80px;
+    width: 100px;
+}
+.bg {
+	width: 100%;
+	/* height; */
+	position: absolute;
+	top: 91px;
+	left: 0;
+	/* background: url() no-repeat fixed center; */
+	/* background-size: 100% 100%; */
+	opacity: 0.7;
+	z-index: -1;
+}
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    color: black;
+}
+h2 {
+    margin: 10px 0px;
+}
+p {
+    text-align: justify; 
+    text-justify: inter-ideograph;    /*设置两端文字对齐*/
+    text-indent: 2em;                 /*文字首行缩进*/
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: #ffffff;
+    min-width: 1500px;       /*页面最小宽度设置为足够宽，使得块元素在页面窗口改动时不会因宽度限制而改变位置*/
+}
+* {
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link type="text/css" href="css/navigation.css" rel="stylesheet">
+    <link type="text/css" href="css/globalLayout.css" rel="stylesheet">
+    <link type="text/css" href="css/Comments.css" rel="stylesheet">
+    <script src="js/Comments.js"></script>
+    <title>普宁-评论区</title>
+</head>
+
+<body>
+<div id="header">
+    <h1>欢迎来到普宁</h1>
+    <p style="text-align:right">
+    <a href="https://baike.baidu.com/item/%E6%99%AE%E5%AE%81/978#12" target="_blank" title="普宁-百度百科">了解更多请点击这里</a>
+    </p>
+</div>
+<ul class="lNav">
+    <li class="lNav"><a class="lNav" href="Home.html" >主页</a></li>
+    <li class="lNav"><a class="lNav" href="Geography.html" >地理环境</a></li>
+    <li class="lNav"><a class="lNav" href="History.html" >历史文化</a></li>
+    <li class="lNav"><a class="lNav" href="Famous.html" >闻名事物</a></li>
+    <li class="lNav"><a class="lNav active" href="Comments.html" >评论区</a></li>    
+</ul>
+
+
+<div class="bg"></div>
+<div id="main">
+    <h2>留下你想说的话吧！</h2>
+    <div id="content">
+        <div id="post">
+            <div style="background:#3EADC5 ;height:30px;">
+                昵称：<input type="submit" id="changeName" name="Submit3" value="默认用户点击改变" onclick="prom()" />
+                <input type="text" id="name" onclick="prom()"/>
+                <!--disabled="disabled"-->
+            </div>
+            <div>
+                <textarea class="transition"></textarea>
+            </div>
+            <input id="postBt" type="button" value="发表留言"/>
+            <input id="clearBt" type="button" value="清空"/>
+        </div>
+
+        <div id="comment"></div>
+    </div>
+</div>
+
+
+
+<div id="footer">
+    <p style="text-align: center;"><i>PuNing in my eye</i></p>
+</div>
+</body>
+</html>
